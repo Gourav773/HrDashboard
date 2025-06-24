@@ -1,0 +1,38 @@
+.dashboard-wrapper {
+  padding-bottom: 30px;
+}
+
+.welcome {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.subtext {
+  color: #888;
+  margin-bottom: 20px;
+}
+.dashboard-wrapper {
+  min-height: 100%;
+  box-sizing: border-box;
+}
+
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .card-grid {
+    flex-direction: column;
+  }
+}

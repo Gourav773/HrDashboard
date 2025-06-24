@@ -1,0 +1,39 @@
+.dashboard-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  padding: 16px;
+  flex: 1;
+  min-width: 180px;
+  max-width: 300px;
+  margin: 10px;
+  transition: transform 0.2s ease;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-2px);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-icon {
+  font-size: 22px;
+  color: #ff7a00;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 14px;
+  color: #666;
+}
+
+.card-value {
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 12px;
+  color: #333;
+}
