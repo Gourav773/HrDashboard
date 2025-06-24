@@ -6,7 +6,7 @@ export default function WorkingHoursChart() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:5000/api/hours')
+    fetch('https://hrbackend-tf6p.onrender.com/api/hours')
       .then(res => res.json())
       .then(setData);
   }, []);

@@ -10,7 +10,7 @@ export default function Dashboard() {
   const [cards, setCards] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:5000/api/cards')
+    fetch('https://hrbackend-tf6p.onrender.com/api/cards')
       .then(res => res.json())
       .then(setCards);
   }, []);

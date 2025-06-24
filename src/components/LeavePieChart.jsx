@@ -8,7 +8,7 @@ export default function LeavePieChart() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:5000/api/leaves')
+    fetch('https://hrbackend-tf6p.onrender.com/api/leaves')
       .then(res => res.json())
       .then(setData);
   }, []);
